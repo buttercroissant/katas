@@ -22,7 +22,7 @@ class CoffeeStoreTest {
             System.out.println("Failed (Object value check)");
         }
 
-        if(storeOneAvailableBlends != testBlends) {
+        if(storeOneAvailableBlends == testBlends) {
             System.out.println("Passed (Object reference check)");
         } else {
             System.out.println("Failed (Object reference check)");
