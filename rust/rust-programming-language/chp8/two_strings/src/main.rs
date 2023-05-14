@@ -11,4 +11,7 @@ fn main() {
 
     let s3 = "initial_contents 2".to_string();
     println!("s3: {s3}");
+
+    let s4 = String::from("initial contents");
+    // let h = s4[0];
 }
